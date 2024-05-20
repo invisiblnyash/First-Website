@@ -1,0 +1,67 @@
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.featured-tours {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tour-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tour-card {
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: 300px;
+}
+
+.testimonials {
+    background-color: #e9ecef;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

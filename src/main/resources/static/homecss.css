@@ -1,0 +1,162 @@
+/* Basic Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero img {
+    filter: brightness(0.8);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.hero a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Navigation */
+nav {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul.auth {
+    margin-left: auto;
+}
+
+nav a {
+    color: #333;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Why Choose Us */
+.why-choose {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.why-choose ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.why-choose ul li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.why-choose ul li:before {
+    content: "\f00c"; /* Font Awesome icon for checkmark */
+    font-family: FontAwesome;
+    font-weight: normal;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+    color: #333;
+}
+
+/* Popular Destinations */
+.destinations {
+    padding: 50px 0;
+}
+
+.destinations h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.destination-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.destination-card:hover {
+    transform: scale(1.02);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.destination-card p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+
